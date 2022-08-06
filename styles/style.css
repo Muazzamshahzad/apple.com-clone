@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+}
+.navigation-bar {
+    background-color: black;
+    
+}
+
+.navigation-bar ul{
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+#apple-logo {
+    width: 2vw;
+    color: white;
+}
