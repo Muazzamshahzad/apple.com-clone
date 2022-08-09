@@ -12,6 +12,7 @@ body {
     background: rgba(0, 0, 0, 0.8);
     color: #f5f5f7;
     position: fixed;
+    z-index: 2;
     top: 0;
     left: 0;
     right: 0;
@@ -135,7 +136,29 @@ body {
     color: rgb(0, 102, 204);
     text-decoration: none;
 }
+@media screen and (max-width: 390px) {
+    .product .text h2 {
+            font-size: 20px;
+            line-height: 1.0714285714;
+            font-weight: 500;
+            letter-spacing: -0.005em;
+    }
+    .product .text h3 {
+            font-size: 16px;
+        }
+    .product video {
+        margin-top: 100px;
+    }
+    .product .links a {
+        font-size: 16px;
+    }
+}
 
 .product .text .links a:hover {
     text-decoration: underline;
+}
+.image-part3 img {
+    width: 100vw;
+    height: auto;
+    position: relative;
 }
