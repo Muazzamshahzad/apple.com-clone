@@ -1,0 +1,484 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background: rgba(0, 0, 0, 0.8);
+    height: 55px;
+    width: auto;
+    color: white;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    position: fixed;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+ 
+.ac-item{
+    float: left;
+    padding-left: 46px;
+    font-size: 12px;
+}
+
+@media screen and  (max-width: 835px) {
+    .ac-item{
+        display: none;
+    }
+    
+}
+
+.ac-text{ 
+    float: left;
+    font-size: 15px;
+}
+
+.all-items{
+    padding: 6px 6px 6px 6px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    opacity: .8;
+    padding-top: 9px;
+}
+
+.img-icon{
+    height: 17px;
+}
+
+.img-logo{
+    height: 22px;
+    padding-left: 0;
+    padding-bottom: 2px;
+    opacity: .8;
+}
+
+@media screen and (max-width:835px) {
+    .img-logo{
+        display: flex;
+        justify-content: center;
+        height: 2em;
+    }
+    
+}
+
+.bag-logo{
+    height: 26px;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    opacity: .8;
+    padding-top: 4px;
+}
+
+@media screen and (max-width:835px) {
+    .bag-logo{
+        display: none;
+    }
+}
+
+.uni-div{
+    background-color: rgba(245, 245, 245, 0.737);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 27px 0px 23px 0px;
+    gap: 17px;
+    margin-top: 55px;
+}
+
+@media (min-aspect-ratio:16/9) {
+    .uni-div{
+        width: 100%;
+        height: 60%;
+        display: grid;
+        align-items: center;
+        justify-items: center
+    }
+    
+}
+
+.line-1 a{
+    color: #0066CC;
+    text-decoration: none;
+}
+
+.mac-pic{
+    background-image: url(../images/hero_macbookair__el7scava26mq_largetall.png);
+    background-size: cover;
+    background-attachment: initial;
+    background-position: center;
+    height: 685px;
+}
+
+@media (max-width:735px) {
+    .mac-pic{
+        width:100%;
+        height:300px ;
+    }
+    
+}
+
+@media (min-width:735px) {
+    .mac-pic{
+        width: auto;
+    }
+    
+}
+
+.line-2{
+    display: flex;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding: 24vh 0em 0em 27vw;
+    opacity: .8;
+}
+
+.learn-more{
+    display: flex;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: bold;
+    padding-top: 3em;
+    gap: 60px;
+    padding-left: 22vw;
+    opacity: .8;
+}
+
+li a{
+    text-decoration: none;
+    color: #0066CC;
+
+}
+
+.video-header  a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.video-h2  a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.product{
+    position: relative;
+    margin-top: 10px;
+}
+
+.product video{
+    width: 100%;
+}
+
+.product .text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  z-index: 1;
+}
+
+.product .text h2 {
+    font-size: 56px;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+  }
+  
+  .product .text h3 {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.112px;
+    line-height: 31.0022px;
+  }
+  
+  .product .text .links a:first-child {
+    margin-right: 35px;
+  }
+  
+  .product .links a {
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.231px;
+    line-height: 29.001px;
+    color: rgb(0, 102, 204);
+    text-decoration: none;
+  }
+  
+  .product .text .links a:hover {
+    text-decoration: underline;
+  }
+  
+  .product .text-2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  z-index: 4;
+  }
+
+  .product .links-2 a{
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.231px;
+    line-height: 29.001px;
+    color: rgb(0, 102, 204);
+    text-decoration: none;
+  }
+
+  .product .text-2 .links-2 a:hover {
+    text-decoration: underline;
+  }
+
+  .head-iphone{
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.002em;
+    margin-top: 2em;
+  }
+
+  .subhead-iphone{
+    margin-top: 5px;
+    margin-bottom: 17px;
+    font-weight: unset;
+    font-size: 1.47em;
+  }
+
+  .number-13{
+    color: #5fb414;
+  }
+
+.product-2{
+    position: relative;
+    height: var(--content-height);
+    background-color: var(--background-color,#fbfbfd);
+
+}
+.mac-air{
+    font-size: 56px;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+}
+
+.subhead-mac{
+    margin-top: 6px;
+    font-size: 28px;
+    line-height: 1.1072228571;
+    font-weight: 400;
+    letter-spacing: .004em;
+}
+
+ a.unit-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+.copy-wrapper {
+    position: relative;
+    z-index: 4;
+    pointer-events: none;
+    text-align: center;
+    padding-top: 31px;
+    margin-top: 10px;
+}
+
+.cta-links {
+    display: inline-block;
+    margin-top: 0.65em;
+}
+
+.typography-hero-cta {
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+cta-links a:not(:only-child):first-child {
+    margin-left: -4px;
+}
+
+a:not(.unit-link) {
+    z-index: 4;
+}
+
+ a {
+    pointer-events: all;
+}
+
+a.icon-wrapper {
+    text-decoration: none;
+}
+
+.link, a {
+    color: #06c;
+    letter-spacing: inherit;
+}
+
+.cta-links a:not(:only-child):not(:first-child) {
+    margin-left: 35px;
+}
+
+.macbook-air-lockup {
+    width: 658px;
+    height: 400px;
+    background-size: 658px 400px;
+    background-repeat: no-repeat;
+    background-image: url(../images/macbookair_hw__enqse6975066_large.jpg);
+    position: relative;
+    left: 50%;
+    margin-left: -329px;
+    margin-top: 38px;
+}
+
+.startframe-macbook-air {
+    width: 524px;
+    height: 340px;
+    background-size: 524px 340px;
+    background-repeat: no-repeat;
+    background-image: url(../images/macbook_startframe__gln0ce3baiq2_large.jpg);
+}
+
+.endframe-macbook-air, .macbook-air-video, .startframe-macbook-air {
+    -webkit-mask-image: url(/v/home/takeover/d/images/overview/macbookair_mask__dja9qg5rvhkm_large.png);
+    mask-image: url(/v/home/takeover/d/images/overview/macbookair_mask__dja9qg5rvhkm_large.png);
+    -webkit-mask-size: 524px 340px;
+    mask-size: 524px 340px;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    position: absolute;
+    top: 14px;
+    left: 67px;
+}
+
+.ended-once .endframe-macbook-air {
+    opacity: 1;
+}
+
+.frame {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.endframe-macbook-air {
+    width: 524px;
+    height: 340px;
+    background-size: 524px 340px;
+    background-repeat: no-repeat;
+    background-image: url(../images/macbook_endframe__emppqi9xta6a_large.jpg);
+    opacity: 0;
+}
+
+.macbook-air-lockup video {
+    width: 524px;
+    margin-left: 67px;
+    margin-top: 16px;s
+}
+
+.macbook-air-lockup video, .unit-video-container video {
+    transition: opacity 500ms;
+}
+
+.unit-video {
+    display: block;
+}
+
+.hero video{
+    width: 100%;
+}
+
+.hero {
+    position: relative;
+    margin-top: 20px;
+  }
+  
+.hero .text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: center;
+}
+  
+.hero img {
+    height: 20%;
+  }
+  
+.hero video {
+    width: 100%;
+  }
+  
+.hero button {
+    appearance: none;
+    border: none;
+    background: white;
+    color: #1d1d1f;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 980px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+.column-section-item{
+    color: #1d1d1f;
+    font-size: 11px;
+    margin-top: 2em;
+    margin-right: -4em;
+    white-space: nowrap;
+}
+
+.footer-nav{
+    display: flex;
+    margin-top: 1px;
+    border-top: 1px solid #00000082;
+    margin-left: 113px;
+    margin-right: 50px;
+    opacity: .8;
+    gap: 135px;
+    padding-top: 52px;
+    margin-bottom: 46px;
+    justify-content: center;
+    border-bottom: 1px solid #00000082;
+    padding-bottom: 34px;
+}
+
+.inside-elements{
+    display: none;
+}
+
+.shopie{
+    font-size: 12px;
+    padding-top: 1em;
+    white-space: nowrap;
+}
